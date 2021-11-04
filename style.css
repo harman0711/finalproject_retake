@@ -4,9 +4,7 @@ margin:0;
 padding:0;
 }
 
-body {
-background-color:#fbeceb;
-}
+
 
 html {
 scroll-behavior:smooth;
@@ -37,12 +35,11 @@ font-style:italic;
 }
 /*--------------------------------------------Nav bar--------------------------------------------*/
 .bar {
-background-color:rgba(251,236,235,.9);
+background-color:rgb(46,62,41);
 position:fixed;
 top:0;
 width:100vw;
 z-index:15;
-border-style:outset;
 }
 
 .logo {
@@ -50,6 +47,7 @@ float:left;
 margin-top:2vh;
 margin-left:3vw;
 margin-bottom:1vh;
+height: 10vh;
 }
 
 .logo img:hover {
@@ -58,7 +56,8 @@ opacity:0.3;
 
 .logo img {
 float:left;
-width:100%;
+height: 100%;
+
 }
 
 .cssnav {
@@ -73,15 +72,22 @@ margin-top:5vh;
 .menu a {
 clear:right;
 text-decoration:none;
-font-size:2vw;
-color:#061a26;
+font-size:1.5vw;
+color:#FFF;
 text-align:center;
-padding-right:3vw;
+margin-right:3vw;
 }
 
 .menu a:hover {
-color:#FEB249;
+border-bottom: 2px solid white;
+font-size:1.7vw;
+color:#fff;
 transition:.2s ease;
+}
+.menu a.active{
+border-bottom: 2px solid white;
+font-size:1.7vw;
+color:#fff;
 }
 
 /*--------------------------------------------Index 1--------------------------------------------*/
@@ -217,8 +223,7 @@ font-size:5vw;
 /*--------------------------------------------Kontakt oss--------------------------------------------*/
 .vindu3 {
 float:left;
-background-color:#002447;
-margin-top:20vh;
+background-color:rgb(46,62,41);
 padding:0;
 }
 
@@ -553,95 +558,75 @@ font-size:1.8vw;
 
 /*--------------------------------------------Appen--------------------------------------------*/
 .Avindu1 {
-background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83,211,209,0.7)), url(./white.jpg);
-height:100vh;
+background-image: url(./app_bakgrunn1.jpg);
+height:90vh;
 background-size:cover;
 background-position:center;
 overflow:auto;
 z-index:-1;
 }
 
+
 .Aslagord {
 float:left;
-margin-top:45vh;
-padding-left:5vw;
+margin-top:60vh;
+margin-left: 30vw;
+text-align: center;
+color: white;
+letter-spacing: 1vw;
 }
 
-.Atablet {
-float:right;
-margin-top:25vh;
-margin-right:5vw;
+.Adel1{
+	float: left;
+	margin-left: 20vw;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	
+}
+.Adel1_text{
+	float: left;
+	width: 35vw;
+	}
+.Adel1_img{
+	float: right;
+	width: 15vw;
 }
 
-.Aappstore {
-float:left;
-margin-top:4vh;
+
+
+.Adel1 h2{
+	float: left;
+	font-size: 3vw;
+
+}
+.Adel1 p{
+	line-height: 6vh;
+	margin-top: 5vh;
+	float: left;
+	font-size: 1.6vw;
+	
+}
+.Adel1 img{
+	float: right;
+	width: 100%; 
+	
 }
 
-.Aappstore img {
-width:15vw;
-float:right;
-margin-right:6.5vw;
+.Avindu2_1{
+	float: left;
+	background-color:#fbeceb;
+
 }
 
-.Abildeboks1 {
-margin-top:20vh;
-float:left;
+.Avindu2_3{
+	float: left;
+	background-color:#fbeceb;
+
 }
 
-.Abildeboks1 img {
-width:40vw;
-}
 
-.Atekstboks1 {
-margin-top:12.5vh;
-float:left;
-font-size:1.5vw;
-}
 
-.Atekstboks1 p {
-margin-top:1vh;
-margin-bottom:2vh;
-font-size:2vw;
-}
 
-.Atekstboks1 li {
-background-repeat:no-repeat;
-background-position:left center;
-background-size:40px;
-list-style:none;
-background-image:url(punkt.png);
-font-size:1.7vw;
-margin:0;
-padding:16px 0 16px 84px;
-}
-
-.Abildeboks2 {
-margin-top:10vh;
-float:left;
-}
-
-.Abildeboks2 img {
-width:20vw;
-}
-
-.Atekstboks2 {
-margin-top:1.1vw;
-float:left;
-font-size:1.7vw;
-padding-left:3vw;
-}
-
-.Atekstboks2 p {
-margin-top:1vh;
-margin-bottom:2vh;
-padding-right:6vw;
-}
-
-.Atekstboks2 h2 {
-color:orange;
-margin-top:2vh;
-}
 
 /*--------------------------------------------Kilder--------------------------------------------*/
 .Khovedboks {
@@ -715,7 +700,7 @@ padding-top:4vh;
 }
 
 /*--------------------------------------------Like verdier--------------------------------------------*/
-.menu a.active,.kontaktboks1 a:hover,.kontaktboks2 a:hover {
+.menu .kontaktboks1 a:hover,.kontaktboks2 a:hover {
 color:#FEB249;
 }
 
@@ -735,12 +720,11 @@ background-color:transparent;
 
 .slagordknapp,.Aslagordknapp {
 display:inline-block;
-margin-left:1vw;
 margin-top:7vh;
 text-decoration:none;
 text-transform:uppercase;
 color:#000;
-font-size:2.5vw;
+font-size:2vw;
 letter-spacing:2px;
 border-radius:3vw;
 background-color:#FEB249;
@@ -748,7 +732,7 @@ padding:6px 18px;
 }
 
 .slagordknapp:hover,.Pslagordknapp:hover,.Lslagordknapp:hover,.Aslagordknapp:hover {
-background-color:#53D3D1;
+background-color:#fff;
 border:1px solid;
 }
 
@@ -759,8 +743,8 @@ background-position:center;
 }
 
 .knapptboks:hover,.kontaktboks3 a:hover {
-color:#fff;
-background-color:#53D3D1;
+color:rgb(46,62,41);
+background-color:#fff;
 }
 
 .borderhøyre,.bordervenstre {
@@ -782,7 +766,7 @@ margin-left:10vw;
 margin-top:10vh;
 text-decoration:none;
 text-transform:uppercase;
-color:#FFF;
+color:rgb(46,62,41);
 font-size:1.5vw;
 letter-spacing:2px;
 border-radius:3vw;
@@ -901,7 +885,7 @@ font-size:6vw;
 right:6vw;
 top:3vh;
 z-index:100;
-color:#000;
+color:#fff;
 }
 
 .menu {
@@ -911,7 +895,7 @@ left:-2vw;
 width:102vw;
 height:102vh;
 display:none;
-background-color:#002447;
+background-color:rgb(46,62,41);
 z-index:50;
 }
 
@@ -924,6 +908,18 @@ margin-top:10vh;
 margin-bottom:2vh;
 float:left;
 }
+.menu a:hover {
+border-bottom: 0;
+font-size:7vw;
+color:#fff;
+transition:.2s ease;
+}
+.menu a.active{
+border-bottom: 0;
+font-size:8vw;
+color:#fff;
+}
+
 
 input[type="checkbox"]:checked + label {
 color:#FFF;
@@ -1151,43 +1147,40 @@ margin-top:0;
 }
 
 /*--------------------------------------------App mobil--------------------------------------------*/
-.Aappstore {
-left:1px;
-margin-left:36vw;
-}
+
 
 .Aslagord {
 text-align:center;
 padding-left:0;
 margin-left:5vw;
 }
+.Adel1{
+	margin-left: 0;
+}
+.Adel1_text{
+	width: 70vw;
+	margin-left: 15vw;
+	text-align: center;
 
-.Aappstore img {
-width:40vw;
+}
+.Adel1_img{
+	margin-top: 5vh;
+	width: 35vw;
+	margin-right: 32.5vw;
+
+
+}
+.Adel1 h2{
+	margin-left: 17vw;
+	font-size: 5vw;
+}
+.Adel1 p{
+	font-size: 4vw;
+	line-height: 10vh;
 }
 
-.Abildeboks img {
-width:100%;
-}
 
-.Atekstboks1 {
-font-size:3.5vw;
-padding-left:0;
-margin-left:3.5vw;
-}
 
-.Atekstboks1 li {
-font-size:3.5vw;
-}
-
-.Atekstboks1 p {
-font-size:3.8vw;
-}
-
-.Atekstboks2 {
-font-size:3.5vw;
-margin-left:3.5vw;
-}
 
 /*--------------------------------------------Kilder mobil--------------------------------------------*/
 .Kkildeikoner i {
@@ -1262,8 +1255,20 @@ margin-top:4.3vh;
 }
 
 .menu a {
-font-size:3.1vw;
+font-size:2vw;
+}
+
+.menu a.active{
+font-size:2.2vw;
+}
+.menu a:hover {
+font-size:2.2vw;
+
+}
+
+.nav a {
 padding-right:2vw;
+font-size:2.5vw;
 }
 
 /*--------------------------------------------Index tablet--------------------------------------------*/
@@ -1440,39 +1445,7 @@ margin-right:0;
 }
 
 /*--------------------------------------------App tablet--------------------------------------------*/
-.Atekstboks1 {
-padding-left:0;
-margin-left:4.5vw;
-}
 
-.Atekstboks2 {
-font-size:3.5vw;
-margin-left:4.5vw;
-padding-left:0;
-}
-
-.Abildeboks {
-margin-left:4.5vw;
-display:block;
-}
-
-.Abildeboks2 {
-margin-left:35vw;
-display:none;
-}
-
-.Abildeboks2 img {
-width:50%;
-}
-
-.Aappstore {
-margin-left:-2vw;
-}
-
-.Aappstore img {
-margin-left:2vw;
-width:35vw;
-}
 
 .Aslagord {
 text-align:center;
@@ -1484,19 +1457,26 @@ font-size:6vw;
 padding-left:0;
 }
 
-.Abildeboks3 {
-display:block;
-margin-left:3.5vw;
+.Aslagordknapp{
+font-size:2vw; 
 }
 
-.Abildeboks3 img {
-height:70vw;
-padding-top:4vh;
+.Adel1 h2{
+	font-size: 3.5vw;
+
+}
+.Adel1 p{
+	font-size: 2.5vw;
+
 }
 
-.Abildeboks img {
-width:100%;
+.Adel1{
+	margin-left: 15vw;
 }
+.Adel1_img{
+	width: 25vw;
+}
+
 
 /*--------------------------------------------Kilder tablet--------------------------------------------*/
 .Kkildeikoner i {
@@ -1508,7 +1488,7 @@ font-size:10vw;
 font-size:6vw;
 }
 
-.slagordknapp,.Ptekst p,.Ptekst3 p,.Pkilde2,.Pquote h3,.Lttekst p,.Ltteekst p,.Lttekst33 p,.Lttekst44,.Aslagordknapp {
+.slagordknapp,.Ptekst p,.Ptekst3 p,.Pkilde2,.Pquote h3,.Lttekst p,.Ltteekst p,.Lttekst33 p,.Lttekst44 {
 font-size:3vw;
 }
 
@@ -1558,8 +1538,15 @@ margin-top:3.7vh;
 }
 
 .menu a {
-font-size:2.8vw;
-padding-right:3vw;
+font-size:2vw;
+}
+
+.menu a.active{
+font-size:2.2vw;
+}
+.menu a:hover {
+font-size:2.2vw;
+
 }
 
 .nav a {
