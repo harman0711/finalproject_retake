@@ -44,21 +44,12 @@ z-index:15;
 
 .logo {
 float:left;
-margin-top:2vh;
+margin-top:1vh;
 margin-left:3vw;
 margin-bottom:1vh;
-height: 10vh;
 }
 
-.logo img:hover {
-opacity:0.3;
-}
 
-.logo img {
-float:left;
-height: 100%;
-
-}
 
 .cssnav {
 text-align:right;
@@ -88,6 +79,15 @@ transition:.2s ease;
 border-bottom: 2px solid white;
 font-size:1.7vw;
 color:#fff;
+}
+.logo a{
+	font-family:'Love Ya Like A Sister', cursive;
+	font-size: 5vw;
+	clear:right;
+	text-decoration:none;
+	color:#FFF;
+	text-align:center;
+	
 }
 
 /*--------------------------------------------Index 1--------------------------------------------*/
@@ -868,14 +868,11 @@ display:table;
 /*--------------------------------------------Nav-bar--------------------------------------------*/
 .logo {
 float:left;
-margin-left:30vw;
+margin-left:41vw;
 margin-top:2vh;
 }
 
-.logo img {
-float:left;
-width:100%;
-}
+
 
 label {
 display:block;
@@ -883,7 +880,7 @@ cursor:pointer;
 position:absolute;
 font-size:6vw;
 right:6vw;
-top:3vh;
+top:1vh;
 z-index:100;
 color:#fff;
 }
@@ -1176,7 +1173,7 @@ margin-left:5vw;
 }
 .Adel1 p{
 	font-size: 4vw;
-	line-height: 10vh;
+	line-height: 8vh;
 }
 
 
