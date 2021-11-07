@@ -281,6 +281,7 @@ margin-left:16vw;
 	float: left;
 	margin-left: 15vw;
 	margin-top: 10vh;
+	margin-bottom: 10vh;
 }
 .Ptext1{
 	float: left;
@@ -292,7 +293,7 @@ margin-left:16vw;
 
 }
 .Ptext1 p{
-	line-height: 6vh;
+	line-height: 5.5vh;
 	margin-top: 5vh;
 	float: left;
 	font-size: 1.6vw;
@@ -300,10 +301,29 @@ margin-left:16vw;
 }
 .Pimg1{
 	float: right
+
 }
 .Pimg1 img{
 	width: 100%;
+	padding-top: 19vh;
 	
+}
+.Pimg2{
+	float: right
+
+}
+#fn1{
+	margin-top: 0;
+	padding-top: 19vh;
+	width: 100%;
+
+}
+#fn2{
+	margin-top: 0;
+	padding-top: 0;
+
+	width: 100%;
+
 }
 
 
