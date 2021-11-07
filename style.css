@@ -173,6 +173,12 @@ padding-right:7vw;
 	width: 100%;
 }
 
+#indeksmarkering{
+	background-color: transparent;
+	color: rgb(50, 61, 43);
+	border-bottom: 3px solid rgb(50,61,43);
+}
+
 
 .tboks {
 float:left;
@@ -1347,7 +1353,7 @@ font-size:2.5vw;
 
 }
 .starttekst p{
-	font-size: 2.2vw;
+	font-size: 2.5vw;
 
 }
 
