@@ -87,13 +87,13 @@ color:#fff;
 	text-decoration:none;
 	color:#FFF;
 	text-align:center;
-	
+
 }
 
 /*--------------------------------------------Index 1--------------------------------------------*/
 .vindu1 {
-background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83,211,209,0.7)), url(./white.jpg);
-height:100vh;
+background-image:linear-gradient(rgba(255,255,255,0.7),rgba(50,61,43,0.7)), url(./white.jpg);
+height:90vh;
 background-size:cover;
 background-position:center;
 overflow:auto;
@@ -109,7 +109,7 @@ padding-left:5vw;
 .iphone {
 float:right;
 position:absolute;
-top:35vh;
+top:27vh;
 left:70%;
 z-index:10;
 }
@@ -119,13 +119,68 @@ float:right;
 width:60%;
 padding-right:7vw;
 }
+
+#matsvinn {
+	color: black;
+	background-color: transparent;
+	border-bottom: solid 5px black;
+}
+
+#indexknapp {
+	color:
+}
 /*--------------------------------------------Index 2--------------------------------------------*/
+
+
+.starttekst{
+	float: left;
+	margin-left: 15vw;
+	margin-top: 18vh;
+	margin-bottom: 15vh;
+	
+
+}
+
+
+.venstrestart {
+	float: left;
+	width: 35vw;
+
+
+}
+
+.høyrestart {
+
+	float: right;
+	width: 28vw;
+	padding-top: 12vh;
+
+}
+
+.starttekst h2 {
+	float: left;
+	font-size: 2.5vw;
+}
+
+.starttekst p {
+	line-height: 6vh;
+	margin-top: 5vh;
+	float: left;
+	font-size: 1.6vw;
+}
+
+.starttekst img {
+	float: right;
+	width: 100%;
+}
+
+
 .tboks {
 float:left;
 margin-left:6.2vw;
 margin-top:20vh;
 background-image:linear-gradient(rgba(83,211,209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
-border-style:outset;
+border: 2px solid black;
 }
 
 .ttekst h2 {
@@ -581,7 +636,7 @@ letter-spacing: 1vw;
 	margin-left: 20vw;
 	margin-top: 10vh;
 	margin-bottom: 10vh;
-	
+
 }
 .Adel1_text{
 	float: left;
@@ -604,12 +659,12 @@ letter-spacing: 1vw;
 	margin-top: 5vh;
 	float: left;
 	font-size: 1.6vw;
-	
+
 }
 .Adel1 img{
 	float: right;
-	width: 100%; 
-	
+	width: 100%;
+
 }
 
 .Avindu2_1{
@@ -713,7 +768,7 @@ font-size:4vw;
 padding-left:1vw;
 }
 
-#matsvinn,.Pmarkering,.Lmarkinger,#Amarkering {
+.Pmarkering,.Lmarkinger,#Amarkering {
 color:#FEB249;
 background-color:transparent;
 }
@@ -923,30 +978,42 @@ color:#FFF;
 }
 
 /*--------------------------------------------Index mobil--------------------------------------------*/
-.slagord {
-text-align:center;
-padding-left:0;
+
+
+.starttekst {
+	margin-left: 0;
 }
 
-.knapptboks {
-font-size:4vw;
-margin-left:32.6vw;
+
+.venstrestart {
+	width: 70vw;
+	margin-left: 15vw;
+	text-align: center;
 }
 
-.tboks {
-margin-top:15vh;
-margin-left:5vw;
+
+.høyrestart{
+	margin-top: 5vh;
+	width: 35vw;
+	margin-right: 18vw;
 }
 
-.ttekst h2 {
-font-size:6vw;
+.starttekst h2{
+	margin-left: 17vw;
+	font-size: 5vw;
 }
 
-.ttekst p {
-padding-left:2vw;
-padding-right:2vw;
-font-size:4vw;
+
+.starttekst p{
+	font-size: 4vw;
+	line-height: 8vh;
 }
+
+.starttekst img{
+	width: 60vw;
+}
+
+
 
 .vindu3 {
 margin-top:10vh;
@@ -1269,8 +1336,27 @@ font-size:2.5vw;
 }
 
 /*--------------------------------------------Index tablet--------------------------------------------*/
+
+.starttekst h2{
+	font-size: 3.5vw;
+
+}
+.starttekst p{
+	font-size: 2vw;
+
+}
+
+.starttekst{
+	margin-left: 15vw;
+}
+
+.høyrestart{
+	width: 30vw;
+	margin-top: 6vh;
+}
+
 .iphone {
-top:35vh;
+top:20vh;
 }
 
 .iphone img {
@@ -1455,7 +1541,7 @@ padding-left:0;
 }
 
 .Aslagordknapp{
-font-size:2vw; 
+font-size:2vw;
 }
 
 .Adel1 h2{
@@ -1553,7 +1639,7 @@ font-size:2.5vw;
 
 /*--------------------------------------------Index Ekstra--------------------------------------------*/
 .iphone {
-top:35vh;
+top:20vh;
 }
 
 .iphone img {
