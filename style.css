@@ -137,7 +137,6 @@ padding-right:7vw;
 	margin-left: 15vw;
 	margin-top: 18vh;
 	margin-bottom: 15vh;
-	
 
 }
 
@@ -152,8 +151,8 @@ padding-right:7vw;
 .høyrestart {
 
 	float: right;
-	width: 28vw;
-	padding-top: 12vh;
+	width: 30vw;
+	padding-top: 20vh;
 
 }
 
@@ -166,7 +165,7 @@ padding-right:7vw;
 	line-height: 6vh;
 	margin-top: 5vh;
 	float: left;
-	font-size: 1.6vw;
+	font-size: 1.8vw;
 }
 
 .starttekst img {
@@ -1342,17 +1341,19 @@ font-size:2.5vw;
 
 }
 .starttekst p{
-	font-size: 2vw;
+	font-size: 2.2vw;
 
 }
 
 .starttekst{
-	margin-left: 15vw;
+	margin-left: 8vw;
+
 }
 
 .høyrestart{
-	width: 30vw;
-	margin-top: 6vh;
+	width: 40vw;
+	margin-top: 8vh;
+margin-right: 1vw;
 }
 
 .iphone {
