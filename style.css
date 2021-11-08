@@ -321,9 +321,41 @@ margin-left:16vw;
 #fn2{
 	margin-top: 0;
 	padding-top: 0;
-
 	width: 100%;
+}
 
+.Ptext2{
+	float: left;
+	width: 50vw;
+}
+.Ptext2 h2{
+	float: left;
+	font-size: 3vw;
+
+}
+.Ptext2 p{
+	line-height: 4vh;
+	word-spacing: 0.3vw;
+	margin-top: 5vh;
+	float: left;
+	font-size: 1.2vw;
+	
+}
+.Ptext11{
+	float: left;
+	width: 50vw;
+}
+.Ptext11 h2{
+	float: left;
+	font-size: 3vw;
+
+}
+.Ptext11 p{
+	line-height: 5.5vh;
+	margin-top: 5vh;
+	float: left;
+	font-size: 1.6vw;
+	
 }
 
 
