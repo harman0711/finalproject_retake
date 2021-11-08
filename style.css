@@ -132,6 +132,8 @@ padding-right:7vw;
 /*--------------------------------------------Index 2--------------------------------------------*/
 
 
+
+
 .starttekst{
 	float: left;
 	margin-left: 15vw;
@@ -180,50 +182,6 @@ padding-right:7vw;
 }
 
 
-.tboks {
-float:left;
-margin-left:6.2vw;
-margin-top:20vh;
-background-image:linear-gradient(rgba(83,211,209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
-border: 2px solid black;
-}
-
-.ttekst h2 {
-font-size:2.8vw;
-padding-left:1vw;
-}
-
-.tlogo img {
-height:20vh;
-margin-left:auto;
-margin-right:auto;
-display:block;
-padding-top:2vw;
-}
-
-.ttekst {
-padding:1vh;
-}
-
-.ttekst p {
-font-size:1.5vw;
-}
-
-.knapptboks {
-display:inline-block;
-margin-left:7.2vw;
-margin-top:7vh;
-margin-bottom:3vh;
-text-decoration:none;
-text-transform:uppercase;
-color:#000;
-font-size:1.5vw;
-letter-spacing:2px;
-border-radius:3vw;
-background-color:#FEB249;
-padding:6px 18px;
-}
-
 #myBtn {
 display:none;
 position:fixed;
@@ -236,48 +194,6 @@ background-color:transparent;
 color:#FEB249;
 cursor:pointer;
 font-size:4vw;
-}
-
-.oppelinje {
-height:2px;
-width:70vw;
-background:#FEB249;
-display:inline-block;
-margin-left:15vw;
-}
-
-.nedelinje {
-height:2px;
-width:40vw;
-background:#FEB249;
-display:inline-block;
-margin-left:30vw;
-}
-
-.nedelinjek {
-height:1px;
-width:20vw;
-background:#FFF;
-display:inline-block;
-margin-left:40vw;
-}
-
-.tittel1 {
-float:left;
-margin-top:10vh;
-}
-
-.tittel1 h1 {
-font-size:10vw;
-}
-
-.tittel1 h3 {
-color:#FEB249;
-font-size:4vw;
-}
-
-.tittel1 h2 {
-font-size:5vw;
 }
 
 /*--------------------------------------------Kontakt oss--------------------------------------------*/
