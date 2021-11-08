@@ -639,6 +639,42 @@ letter-spacing: 1vw;
 	padding-left:0;
 	margin-left:5vw;
 }
+.Odel1{
+	float: left;
+	margin-left: 20vw;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	
+}
+.Odel1_text{
+	float: left;
+	width: 35vw;
+	}
+.Odel1_img{
+	margin-top: 12vh;
+	float: right;
+	width: 20vw;
+}
+
+
+
+.Odel1 h2{
+	float: left;
+	font-size: 3vw;
+
+}
+.Odel1 p{
+	line-height: 6vh;
+	margin-top: 5vh;
+	float: left;
+	font-size: 1.6vw;
+	
+}
+.Odel1 img{
+	float: right;
+	width: 100%; 
+	
+}
 
 .slagordknapp,.Oslagordknapp {
 	display:inline-block;
@@ -657,6 +693,40 @@ letter-spacing: 1vw;
 	background-color:#fff;
 	border:1px solid;
 	}
+
+.Odel2{
+	float: left;
+	margin-left: 10vw;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
+	
+}	
+.Oansatt{
+	float: left;
+	margin-top: 10vh;
+	margin-right:4vw;
+}
+.Oansatt_bilde{
+	float: left;
+}
+.Oansatt_bilde img{
+	float: left;
+	border-radius: 20%;
+	width: 100%;
+}
+.Oansatt_text{
+	float: left;
+	margin-top: 5vh;
+}
+.Oansatt_text h2{
+	font-size: 1.7vw;
+	
+}
+.Oansatt_text h3{
+	margin-top: 3vh;
+	font-size: 1.3vw;
+	
+}
 
 /*--------------------------------------------Kilder--------------------------------------------*/
 .Khovedboks {
