@@ -624,9 +624,39 @@ letter-spacing: 1vw;
 
 }
 
+/*-------------------------------------------------------------Our team--------------------------------------------------------------------*/
+.ourteam1 {
+	background-image: url(./annie-spratt-sggw4-qDD54-unsplash.jpeg);
+	height:90vh;
+	background-size:cover;
+	background-position:center;
+	overflow:auto;
+	z-index:-1;
+}
 
+.Oslagord {
+	text-align:center;
+	padding-left:0;
+	margin-left:5vw;
+}
 
-
+.slagordknapp,.Oslagordknapp {
+	display:inline-block;
+	margin-top:7vh;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:#000;
+	font-size:2vw;
+	letter-spacing:2px;
+	border-radius:3vw;
+	background-color:#FEB249;
+	padding:6px 18px;
+	}
+	
+	.slagordknapp:hover,.Pslagordknapp:hover,.Lslagordknapp:hover,.Oslagordknapp:hover {
+	background-color:#fff;
+	border:1px solid;
+	}
 
 /*--------------------------------------------Kilder--------------------------------------------*/
 .Khovedboks {
