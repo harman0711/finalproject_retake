@@ -87,13 +87,13 @@ color:#fff;
 	text-decoration:none;
 	color:#FFF;
 	text-align:center;
-	
+
 }
 
 /*--------------------------------------------Index 1--------------------------------------------*/
 .vindu1 {
-background-image:linear-gradient(rgba(255,255,255,0.7),rgba(83,211,209,0.7)), url(./white.jpg);
-height:100vh;
+background-image: url(./indexbakgrunn1ny.jpg);
+height:90vh;
 background-size:cover;
 background-position:center;
 overflow:auto;
@@ -109,7 +109,7 @@ padding-left:5vw;
 .iphone {
 float:right;
 position:absolute;
-top:35vh;
+top:27vh;
 left:70%;
 z-index:10;
 }
@@ -119,50 +119,87 @@ float:right;
 width:60%;
 padding-right:7vw;
 }
+
+#matsvinn {
+	color: black;
+	background-color: transparent;
+
+}
+
+#indexknapp {
+	display:inline-block;
+	margin-top:7vh;
+	text-decoration:none;
+	text-transform:uppercase;
+	color:white;
+	font-size:2vw;
+	letter-spacing:2px;
+	border-radius:3vw;
+	background-color: rgb(50, 61, 43);
+	padding:6px 18px;
+
+}
+
+#indexknapp:hover {
+	background-color:white;
+	color: black;
+	border:1px solid;
+}
+
+
+
 /*--------------------------------------------Index 2--------------------------------------------*/
-.tboks {
-float:left;
-margin-left:6.2vw;
-margin-top:20vh;
-background-image:linear-gradient(rgba(83,211,209,0.7),rgba(255,255,255,0.7)), url(./white.jpg);
-border-style:outset;
+
+
+
+
+.starttekst{
+	float: left;
+	margin-left: 15vw;
+	margin-top: 18vh;
+	margin-bottom: 15vh;
+
 }
 
-.ttekst h2 {
-font-size:2.8vw;
-padding-left:1vw;
+
+.venstrestart {
+	float: left;
+	width: 35vw;
+
+
 }
 
-.tlogo img {
-height:20vh;
-margin-left:auto;
-margin-right:auto;
-display:block;
-padding-top:2vw;
+.høyrestart {
+
+	float: right;
+	width: 30vw;
+	padding-top: 20vh;
+
 }
 
-.ttekst {
-padding:1vh;
+.starttekst h2 {
+	float: left;
+	font-size: 2.5vw;
 }
 
-.ttekst p {
-font-size:1.5vw;
+.starttekst p {
+	line-height: 6vh;
+	margin-top: 5vh;
+	float: left;
+	font-size: 1.8vw;
 }
 
-.knapptboks {
-display:inline-block;
-margin-left:7.2vw;
-margin-top:7vh;
-margin-bottom:3vh;
-text-decoration:none;
-text-transform:uppercase;
-color:#000;
-font-size:1.5vw;
-letter-spacing:2px;
-border-radius:3vw;
-background-color:#FEB249;
-padding:6px 18px;
+.starttekst img {
+	float: right;
+	width: 100%;
 }
+
+#indeksmarkering{
+	background-color: transparent;
+	color: rgb(50, 61, 43);
+	border-bottom: 3px solid rgb(50,61,43);
+}
+
 
 #myBtn {
 display:none;
@@ -178,46 +215,12 @@ cursor:pointer;
 font-size:4vw;
 }
 
-.oppelinje {
-height:2px;
-width:70vw;
-background:#FEB249;
-display:inline-block;
-margin-left:15vw;
-}
-
-.nedelinje {
-height:2px;
-width:40vw;
-background:#FEB249;
-display:inline-block;
-margin-left:30vw;
-}
-
 .nedelinjek {
 height:1px;
 width:20vw;
 background:#FFF;
 display:inline-block;
 margin-left:40vw;
-}
-
-.tittel1 {
-float:left;
-margin-top:10vh;
-}
-
-.tittel1 h1 {
-font-size:10vw;
-}
-
-.tittel1 h3 {
-color:#FEB249;
-font-size:4vw;
-}
-
-.tittel1 h2 {
-font-size:5vw;
 }
 
 /*--------------------------------------------Kontakt oss--------------------------------------------*/
@@ -533,7 +536,7 @@ letter-spacing: 1vw;
 	margin-left: 20vw;
 	margin-top: 10vh;
 	margin-bottom: 10vh;
-	
+
 }
 .Adel1_text{
 	float: left;
@@ -547,7 +550,6 @@ letter-spacing: 1vw;
 
 
 .Adel1 h2{
-	float: left;
 	font-size: 3vw;
 
 }
@@ -556,12 +558,13 @@ letter-spacing: 1vw;
 	margin-top: 5vh;
 	float: left;
 	font-size: 1.6vw;
-	
+
 }
 .Adel1 img{
 	float: right;
-	width: 100%; 
-	
+	padding-top: 10vh;
+	width: 100%;
+
 }
 
 .Avindu2_1{
@@ -574,6 +577,9 @@ letter-spacing: 1vw;
 	float: left;
 	background-color:#fbeceb;
 
+}
+#F_img{
+	padding-top:20vh;
 }
 
 
@@ -665,7 +671,7 @@ font-size:4vw;
 padding-left:1vw;
 }
 
-#matsvinn,.Pmarkering,.Lmarkinger,#Amarkering {
+.Pmarkering,.Lmarkinger,#Amarkering {
 color:#FEB249;
 background-color:transparent;
 }
@@ -875,33 +881,59 @@ color:#FFF;
 }
 
 /*--------------------------------------------Index mobil--------------------------------------------*/
+.vindu1{
+	height: 70vh;
+}
+#indexknapp {
+	display: none;
+}
 .slagord {
 text-align:center;
 padding-left:0;
+margin-left:0;
 }
 
-.knapptboks {
-font-size:4vw;
-margin-left:32.6vw;
+
+
+
+.starttekst {
+	margin-left: 0;
 }
 
-.tboks {
-margin-top:15vh;
-margin-left:5vw;
+
+.venstrestart {
+	width: 70vw;
+	margin-left: 15vw;
+	text-align: center;
 }
 
-.ttekst h2 {
-font-size:6vw;
+
+.høyrestart{
+	padding-top: 5vh;
+	margin-top: 0;
+	width: 35vw;
+	margin-right: 18vw;
 }
 
-.ttekst p {
-padding-left:2vw;
-padding-right:2vw;
-font-size:4vw;
+.starttekst h2{
+	margin-left: 14vw;
+	font-size: 5vw;
 }
+
+
+.starttekst p{
+	font-size: 4vw;
+	line-height: 8vh;
+}
+
+.starttekst img{
+	width: 60vw;
+}
+
+
 
 .vindu3 {
-margin-top:10vh;
+margin-top:0;
 }
 
 /*--------------------------------------------Kontakt mobil--------------------------------------------*/
@@ -1080,11 +1112,14 @@ margin-top:0;
 
 /*--------------------------------------------App mobil--------------------------------------------*/
 
-
+.Avindu1 {
+	height: 70vh;
+}
 .Aslagord {
 text-align:center;
 padding-left:0;
 margin-left:5vw;
+margin-top: 50vh;
 }
 .Adel1{
 	margin-left: 0;
@@ -1102,13 +1137,22 @@ margin-left:5vw;
 
 
 }
+
 .Adel1 h2{
-	margin-left: 17vw;
 	font-size: 5vw;
 }
 .Adel1 p{
 	font-size: 4vw;
 	line-height: 8vh;
+}
+.Adel1_img img{
+	padding-top: 0vh;
+}
+#F_img{
+	padding-top: 0;
+}
+#Fun_img{
+	padding-top: 0;
 }
 
 
@@ -1204,8 +1248,29 @@ font-size:2.5vw;
 }
 
 /*--------------------------------------------Index tablet--------------------------------------------*/
+
+.starttekst h2{
+	font-size: 3.5vw;
+
+}
+.starttekst p{
+	font-size: 2.5vw;
+
+}
+
+.starttekst{
+	margin-left: 8vw;
+
+}
+
+.høyrestart{
+	width: 40vw;
+	margin-top: 8vh;
+margin-right: 1vw;
+}
+
 .iphone {
-top:35vh;
+top:30vh;
 }
 
 .iphone img {
@@ -1242,7 +1307,7 @@ font-size:2.5vw;
 }
 /*-------------------------------------------Kontakt oss tablet--------------------------------------------*/
 .vindu3 {
-margin-top:10vh;
+margin-top:0;
 }
 
 .kontaktboks1 a {
@@ -1395,7 +1460,7 @@ padding-left:0;
 }
 
 .Aslagordknapp{
-font-size:2vw; 
+font-size:2vw;
 }
 
 .Adel1 h2{
@@ -1408,10 +1473,22 @@ font-size:2vw;
 }
 
 .Adel1{
-	margin-left: 15vw;
+	margin-left: 10vw;
 }
 .Adel1_img{
-	width: 25vw;
+	width: 35vw;
+}
+
+.Adel1 img {
+	padding-top: 10vh;
+}
+#F_img{
+	padding-top: 15vh;
+
+}
+#Fun_img{
+	padding-top: 15vh;
+
 }
 
 
@@ -1493,7 +1570,7 @@ font-size:2.5vw;
 
 /*--------------------------------------------Index Ekstra--------------------------------------------*/
 .iphone {
-top:35vh;
+top:20vh;
 }
 
 .iphone img {
@@ -1549,31 +1626,15 @@ margin:1.5vh 0;
 }
 
 /*--------------------------------------------App Ekstra--------------------------------------------*/
-.Abildeboks1 {
-margin-top:25vh;
+
+.Adel1_img{
+
+	width: 20vw;
 }
 
-.Abildeboks1 img {
-width:50vw;
+#F_img{
+padding-top: 15vh;
 }
-
-.Abildeboks2 {
-margin-top:18vh;
-}
-
-.Abildeboks2 img {
-width:25vw;
-}
-
-.Aappstore {
-margin-top:4vh;
-}
-
-.Aappstore img {
-width:20vw;
-margin-right:3vw;
-}
-
 /*--------------------------------------------Kilder Ekstra--------------------------------------------*/
 .Khovedboks h1 {
 font-size:5vw;
