@@ -273,10 +273,7 @@ background-color:#000;
 z-index:-1;
 
 }
-.Pslagord {
-margin-top:45vh;
-margin-left:16vw;
-}
+
 .Pdel1{
 	float: left;
 	margin-left: 15vw;
@@ -288,9 +285,7 @@ margin-left:16vw;
 	width: 35vw;
 }
 .Ptext1 h2{
-	float: left;
 	font-size: 3vw;
-
 }
 .Ptext1 p{
 	line-height: 5.5vh;
@@ -324,23 +319,6 @@ margin-left:16vw;
 	width: 100%;
 }
 
-.Ptext2{
-	float: left;
-	width: 50vw;
-}
-.Ptext2 h2{
-	float: left;
-	font-size: 3vw;
-
-}
-.Ptext2 p{
-	line-height: 4vh;
-	word-spacing: 0.3vw;
-	margin-top: 5vh;
-	float: left;
-	font-size: 1.2vw;
-	
-}
 .Ptext11{
 	float: left;
 	width: 70vw;
@@ -957,57 +935,40 @@ margin:0 -4vw 0 0;
 }
 
 /*--------------------------------------------Problem mobil--------------------------------------------*/
-.Pslagord {
-margin-left:6vw;
-margin-top:40vh;
+.Pvindu1{
+	height: 70vh;
+}
+.Pdel1{
+	margin-left: 0;
+}
+.Ptext1,.Ptext11{
+	width: 70vw;
+	margin-left: 15vw;
+	text-align: center;
+
+}
+.Pdel1_img{
+	margin-top: 5vh;
+	width: 35vw;
+	margin-right: 32.5vw;
+
+
+}
+.Pdel1 h2{
+	font-size: 5vw;
+	margin-left: 0;
+}
+.Pdel1 p{
+	font-size: 4vw;
+	line-height: 8vh;
+}
+.Pimg1{
+	display: none;
+}
+.Pimg2{
+	display: none;
 }
 
-.Pslagord h1 {
-padding-left:0;
-font-size:7vw;
-}
-
-.Pkilde {
-font-size:2.9vw;
-float:left;
-margin-top:2vh;
-}
-
-.Ptittel {
-text-align:center;
-}
-
-.Ptittel h1 {
-font-size:10vw;
-padding-left:4vw;
-}
-
-.Pnedelinjek {
-width:40vw;
-margin-left:5vw;
-}
-
-.P12 {
-margin-left:5vw;
-}
-
-.P13 {
-margin-right:5vw;
-}
-
-.Plittnedelinje {
-width:70vw;
-margin-left:4vw;
-}
-
-.Ptekst3 p {
-text-align:center;
-font-size:4vw;
-}
-
-.Pquote h3 {
-padding-right:0;
-}
 
 /*--------------------------------------------Løsning mobil--------------------------------------------*/
 .Lslagord {
@@ -1302,40 +1263,45 @@ margin-top:9vh;
 }
 
 /*---------------------------------------------Problem tablet--------------------------------------------*/
-.Pslagord h1 {
-padding-left:0;
-font-size:5.4vw;
+
+
+
+.Pdel1 h2{
+	font-size: 3.5vw;
+
+}
+.Pdel1 p{
+	font-size: 2.5vw;
+
 }
 
-.Pkilde {
-margin-top:2vh;
-font-size:2.5vw;
-float:right;
+.Pdel1{
+	margin-left: 10vw;
+}
+.Ptext1{
+	width: 40vw;
+
+}
+.Pimg1{
+	width: 35vw;
+}
+.Pimg1 img{
+	padding-top: 30vh;
+}
+.Pimg2{
+
+	width: 30vw;
 }
 
-.Pslagordknapp {
-font-size:3vw;
-margin-left:35vw;
-}
+#fn1{
+	margin-top: 0;
+	padding-top: 23vh;
+	width: 100%;
 
-.Ptittel {
-text-align:center;
 }
-
-.Pnedelinjek {
-width:23vw;
-}
-
-.P12 {
-margin-left:10vw;
-}
-
-.P13 {
-margin-right:10vw;
-}
-
-.Plittnedelinje {
-width:69vw;
+.Ptext11{
+	float: left;
+	width: 80vw;
 }
 
 /*--------------------------------------------Løsning tablet--------------------------------------------*/
@@ -1545,35 +1511,7 @@ padding-top:2.5vh;
 }
 
 /*--------------------------------------------Problem Ekstra--------------------------------------------*/
-.Pslagord h1 {
-font-size:4.5vw;
-padding-left:1vw;
-}
 
-.Pbordervenstre {
-margin-top:10vh;
-width:2px;
-height:30vh;
-background-color:#FEB249;
-float:left;
-}
-
-.Pquote h3 {
-padding-right:3vw;
-}
-
-.Pborderhøyre {
-margin-top:5vh;
-width:2px;
-height:30vh;
-background-color:#FEB249;
-float:left;
-}
-
-.Plittnedelinje {
-width:45vw;
-margin-left:3vw;
-}
 
 /*--------------------------------------------Løsning Ekstra--------------------------------------------*/
 .Ltittel {
