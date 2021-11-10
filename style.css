@@ -295,7 +295,7 @@ z-index:-1;
 	margin-top: 5vh;
 	float: left;
 	font-size: 1.6vw;
-	
+
 }
 .Pimg1{
 	float: right
@@ -304,7 +304,7 @@ z-index:-1;
 .Pimg1 img{
 	width: 100%;
 	padding-top: 19vh;
-	
+
 }
 .Pimg2{
 	float: right
@@ -336,7 +336,7 @@ z-index:-1;
 	margin-top: 5vh;
 	float: left;
 	font-size: 1.6vw;
-	
+
 }
 
 
@@ -586,7 +586,7 @@ letter-spacing: 1vw;
 
 /*-------------------------------------------------------------Our team--------------------------------------------------------------------*/
 .ourteam1 {
-	background-image: url(./annie-spratt-sggw4-qDD54-unsplash.jpeg);
+	background-image: url(./mario-gogh-VBLHICVh-lI-unsplash.jpg);
 	height:90vh;
 	background-size:cover;
 	background-position:center;
