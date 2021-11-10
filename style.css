@@ -708,13 +708,12 @@ background-repeat:no-repeat;
 background-position:left center;
 background-size:40px;
 list-style:none;
-background-image:url(punkt.png);
 font-size:1.8vw;
 padding:16px 0 16px 84px;
 }
 
 .Ktittel {
-text-align:center;
+	padding-left: 10vw;
 }
 
 .Knedelinje {
@@ -725,7 +724,7 @@ display:inline-block;
 }
 
 .Ktittel2 {
-text-align:center;
+padding-left: 10vw;
 float:left;
 margin-top:3vh;
 }
