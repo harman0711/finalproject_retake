@@ -1,5 +1,7 @@
 # final-project
-Norsk
+
+På Norsk
+
 Linken til nettsiden vår : https://harman0711.github.io/finalproject_retake/
 
 For å lage nettsiden vår så brukte vi inspirasjon fra vår tidligere webutvikling & inkluderede design mappeinnlevering. Aspekter av dette kan du 
