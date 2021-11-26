@@ -12,6 +12,7 @@ Kildene som vi har benyttet for å lage nettsiden vår finner du på bunnen av h
 
 
 In English 
+
 Our link to our website : https://harman0711.github.io/finalproject_retake/
 
 To create our website, we used inspiration from our previous web development & included design folder assignment from last year. Aspects of 
